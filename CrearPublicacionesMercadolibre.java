@@ -105,29 +105,14 @@ public class CrearPublicacionesMercadolibre {
 				//subirTop();
 				a = a + 2;		
 			}
-				
-			
-			
-				
-			
-			
-
+	
 			  
 		  }
-		
-		
-		  
+ 
 		  
 		}
 		
-	
-		
-	
-	
-	
-	
 
-	
 
 
 public void ElegirProducto(int b, boolean esAlgodon, File[] archivo, int vel)throws Exception  {
@@ -148,7 +133,6 @@ public String ImagenRemera(int b, File[]archivo) {
 	return archivo[b].getName().substring(0, (archivo[b].getName().length() - 4));	
 }
 
-
 public String NombreRemera(int b, boolean esAlgodon, File[] archivo) {
 	
 	String Nombre = "Remera ".concat(archivo[b].getName().substring(0, (archivo[b].getName().length() - 7)));
@@ -157,16 +141,8 @@ public String NombreRemera(int b, boolean esAlgodon, File[] archivo) {
 	return Nombre;
 	else
 	return Nombre.concat(" algodon");
-	
+
 }
-
-
-	
-
-
-
-
-	
 	
 
 public void Pagina1(int b, int a, File[] archivo, int vel) {
@@ -228,8 +204,6 @@ AutoClick.Enter(robot);
 
 }
 
-
-
 public void NombrePagina1(int b, boolean esAlgodon, File[] archivo, int vel) {
 	
 
@@ -254,10 +228,6 @@ public void NombrePagina1(int b, boolean esAlgodon, File[] archivo, int vel) {
 	
 	robot.delay(h * (vel * 2));
 }
-
-
-
-
 
 
 public void ComisionFinal(int a, int vel) {
@@ -447,16 +417,6 @@ private void direccion(String ruta) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 public void arreglarError(int vel)	{
 	
 	
@@ -599,40 +559,6 @@ public void precio(boolean esAlgodon) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public void Variantes(int i, int vel) {
 	
 
@@ -709,12 +635,6 @@ public void Variantes(int i, int vel) {
 	robot.delay(e);
 	AutoClick.leftClick(robot);
 	robot.delay(e);
-	
-
-
-
-
-
 
 	//AGREGAR LOS TALLES EN BLANCO***********************************************
 	
@@ -763,14 +683,7 @@ public void Variantes(int i, int vel) {
 	robot.mouseMove(450, 996);  // + Agregar Talle S +70
 	robot.delay(e);
 	AutoClick.leftClick(robot);
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	//*************************PONER LOS TALLES S Al XXL EN BLANCO *********************************************
 	 
@@ -893,7 +806,6 @@ public void Variantes(int i, int vel) {
 	robot.delay(e);
 	
 	
-	
 	robot.mouseMove(450, 1026); 
 	robot.delay(e);
 	AutoClick.leftClick(robot);
@@ -905,10 +817,6 @@ public void Variantes(int i, int vel) {
 	robot.delay(e);
 	keyboard.type("99");
 	robot.delay(e);
-	
-
-	
-	
 
 	
 	robot.delay(150);
@@ -920,20 +828,12 @@ public void Variantes(int i, int vel) {
 	robot.delay(e);
 	AutoClick.Bajar(robot,25);	
 	
-	
 
-	
-	
-	
-	
 	//AGREGAR TALLES AL GRIS///////////////////////////////
 	
 	robot.delay(e);
 	robot.mouseMove(450, 740);
-	
-	
-	
-	
+
 	
 	robot.delay(e);
 	robot.mouseMove(450, 740);  // + Agregar Talle XL +70
@@ -1127,27 +1027,6 @@ public void pruebas() {
 	
 	robot.mouseMove(1520, 550);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
